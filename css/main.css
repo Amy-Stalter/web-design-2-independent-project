@@ -78,6 +78,7 @@ html {
     text-decoration: none;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    max-width: 250px;
   }
 
   nav ul a:hover {
@@ -93,7 +94,7 @@ html {
   }
 
  .card {
-    width: 100% auto;
+    width: auto;
     font-family: 'Montserrat', sans-serif;
     font-size: 15pt;
     background-color: #fefcff;
