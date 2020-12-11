@@ -93,7 +93,7 @@ html {
     text-align: center;
   }
 
- .card {
+  .card {
     width: auto;
     font-family: 'Montserrat', sans-serif;
     font-size: 15pt;
@@ -103,7 +103,7 @@ html {
     border: #cfa6e3 solid 5px;
     border-radius: 5px;
     color: #440066;
- }
+  }
 
   h2 {
     font-family: 'Goldman', cursive;
@@ -160,11 +160,9 @@ html {
   }
 
   h1,
- p {
-   margin: 0 0 1.4rem;
- }
-
-}
+  p {
+    margin: 0 0 1.4rem;
+  }
 
   h1 {
     padding-bottom: 15px;
