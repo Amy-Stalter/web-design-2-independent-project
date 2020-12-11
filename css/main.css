@@ -22,7 +22,7 @@ html {
 
   h1 {
     color: white;
-    font-family: 'Goldman', cursive;
+    font-family: Goldman, cursive;
     position: relative;
     text-align: center;
   }
@@ -33,7 +33,7 @@ html {
 
   body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat, sans-serif;
   }
 
   .logo {
@@ -61,7 +61,7 @@ html {
     padding-left: 0;
     color: white;
     margin: 0;
-    background-color: #b99aff;
+    background-color: #623573;
     padding-top: 5px;
     padding-bottom: 5px;
   }
@@ -77,45 +77,39 @@ html {
   a {
     text-decoration: none;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat, sans-serif;
     max-width: 250px;
   }
 
   nav ul a:hover {
-    color: #3c1361;
+    color: #cfa6e3;
   }
 
   footer {
     background-color: #651fff;
     color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10pt;
+    font-family: Montserrat, sans-serif;
+    font-size: .8rem;
     text-align: center;
   }
 
   .card {
     width: auto;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15pt;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.25rem;
     background-color: #fefcff;
     margin: 30px;
     padding: 10px;
     border: #cfa6e3 solid 5px;
     border-radius: 5px;
-    color: #440066;
+    color: #406;
   }
 
   h2 {
-    font-family: 'Goldman', cursive;
-    font-size: 25pt;
+    font-family: Goldman, cursive;
+    font-size: 2.1rem;
     text-align: center;
     margin: 0;
-  }
-
-  p {
-    margin: 0;
-    text-align: center;
-    padding: 15px;
   }
 
   .card:hover {
@@ -124,8 +118,8 @@ html {
   }
 
   h3 {
-    font-family: 'Goldman', cursive;
-    font-size: 20pt;
+    font-family: Goldman, cursive;
+    font-size: 1.6rem;
     text-align: center;
     margin: 0;
     padding-left: 20px;
@@ -140,9 +134,11 @@ html {
   }
 
   p {
-    font-size: 10pt;
+    font-size: .8rem;
     padding-left: 15px;
-    padding-left: 15px;
+    margin: 0;
+    text-align: center;
+    padding-right: 15px;
   }
 
   .archive2 {
@@ -150,7 +146,6 @@ html {
   }
 
 }
-
 
 @media only screen and (min-width: 38em) {
 
@@ -167,12 +162,11 @@ html {
   h1 {
     padding-bottom: 15px;
     margin: 0;
-    font-size: 38px;
+    font-size: 2.3rem;
   }
 
   p {
-    font-size: 12pt;
-    padding-left: 25px;
+    font-size: 1rem;
     padding-left: 25px;
   }
 
@@ -186,7 +180,7 @@ html {
   }
 
   a {
-    font-size: 22px;
+    font-size: 1.3rem;
   }
 
   .banner {
@@ -194,7 +188,7 @@ html {
   }
 
   .cardb {
-    font-size: 25px;
+    font-size: 1.5rem;
   }
 
 }
@@ -228,4 +222,11 @@ html {
   .img3 {
     grid-column: 3;
   }
+
+  .card {
+    margin: 0;
+    margin-bottom: 20px;
+    justify-self: center;
+  }
+
 }
