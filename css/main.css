@@ -118,12 +118,6 @@ html {
     padding: 15px;
   }
 
-  .cards {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
-
   .card:hover {
     color: #cfa6e3;
     background-color: black;
@@ -223,5 +217,17 @@ html {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+  }
+
+  .img1 {
+    grid-column: 1;
+  }
+
+  .img2 {
+    grid-column: 2;
+  }
+
+  .img3 {
+    grid-column: 3;
   }
 }
