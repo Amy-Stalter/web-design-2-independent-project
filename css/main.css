@@ -24,10 +24,7 @@ html {
     color: white;
     font-family: 'Goldman', cursive;
     position: relative;
-    left: 50%;
-    transform: translateX(-38%);
-    margin: 0;
-    padding-bottom: 15px;
+    text-align: center;
   }
 
   img {
@@ -70,7 +67,7 @@ html {
   }
 
   nav {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
   }
 
   li {
@@ -117,7 +114,7 @@ html {
   p {
     margin: 0;
     text-align: center;
-    padding-bottom: 15px;
+    padding: 15px;
   }
 
   .cards {
@@ -137,13 +134,15 @@ html {
     font-size: 20pt;
     text-align: center;
     margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   h4 {
     margin-bottom: 0;
-    padding-left: 10px;
-    padding-left: 10px;
-    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
   }
 
   p {
@@ -166,11 +165,17 @@ html {
     line-height: 1.4;
   }
 
+  h1,
+ p {
+   margin: 0 0 1.4rem;
+ }
+
+}
+
   h1 {
-    left: 50%;
-    transform: translateX(-38%);
-    margin: 0;
     padding-bottom: 15px;
+    margin: 0;
+    font-size: 38px;
   }
 
   p {
@@ -178,5 +183,48 @@ html {
     padding-left: 25px;
     padding-left: 25px;
   }
+
+  .logo {
+    position: relative;
+    width: 145px;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 25px;
+  }
+
+  a {
+    font-size: 22px;
+  }
+
+  .banner {
+    max-height: 225px;
+  }
+
+  .cardb {
+    font-size: 25px;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+  }
+
 
 }
