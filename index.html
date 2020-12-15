@@ -13,12 +13,19 @@
   <link rel="icon" type="image/png" href="favicon-196.png">
 </head>
 <body>
+  <ul class="skip-links">
+    <li><a href="#main" tabindex="0">jump to main content</a></li>
+    <li><a href="#name" tabindex="0">jump to name</a></li>
+    <li><a href="#nav" tabindex="0">jump to navigation</a></li>
+  </ul>
 
-  <header role="banner">
+  <header role="banner" id="name" tabindex="0">
+    <a class="hidden" href="#name">banner</a>
     <img class="banner" src="images/banner.jpg" alt="Keyboard Banner">
     <img class="logo" src="images/webdevlogow.png" alt="Guidence Gaming Logo">
     <h1>Guidence Gaming</h1>
-    <nav role="navigation">
+    <nav role="navigation" id="nav" tabindex="0">
+      <a class="hidden" href="#nav">navigation</a>
       <ul>
         <li><a class="home" href="index.html">Home</a></li>
         <li><a class="articles" href="articles.html">Articles</a></li>
@@ -27,7 +34,8 @@
     </nav>
   </header>
 
-  <main class="indexmain" role="main">
+  <main class="indexmain" role="main" id="main" tabindex="0">
+    <a class="hidden" href="#main">main content</a>
     <img class="home" src="images/home.jpg" alt="Person gaming">
     <section>Welcome to guidence gaming! Home to hundreds of tips, tricks, and articles to help you navigate your way around PC gaming! Some thinks you can expect on our blog are video game specific posts for games such as League of Legends, Minecraft, COD, and much more. Other articles include PC building guides and reccomendations, item reccomendations to elevate your space, and mental health within the gaming world. The possibilities for for learning something new here are endless!</section>
   </main>

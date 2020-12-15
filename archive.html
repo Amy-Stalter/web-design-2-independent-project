@@ -9,17 +9,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Montserrat&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="" rel="stylesheet">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="icon" type="image/png" href="favicon-196.png">
 </head>
-<body>
 
-  <header>
+<body>
+  <ul class="skip-links">
+    <li><a href="#main" tabindex="0">jump to main content</a></li>
+    <li><a href="#name" tabindex="0">jump to name</a></li>
+    <li><a href="#nav" tabindex="0">jump to navigation</a></li>
+  </ul>
+
+  <header role="banner" id="name" tabindex="0">
       <img class="banner" src="images/banner.jpg" alt="Keyboard Banner">
       <img class="logo"src="images/webdevlogow.png" alt="Guidence Gaming Logo">
       <h1>Guidence Gaming</h1>
-    <nav>
+    <nav role="navigation" id="nav" tabindex="0">
       <ul>
         <li><a class="home" href="index.html">Home</a></li>
         <li><a class="articles" href="articles.html">Articles</a></li>
@@ -28,7 +33,7 @@
     </nav>
   </header>
 
-    <main>
+    <main role="main" id="main" tabindex="0">
       <h2>Articles<h2>
       <img src="images/image1.jpg" alt="2 Monitor gaming set up">
       <h3>Top 5 monitors to improve your home or gaming set up</h3>
