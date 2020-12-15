@@ -200,15 +200,11 @@ html {
     line-height: 1.5;
   }
 
-  h1,
-  p {
-    margin: 0 0 1.5rem;
-  }
-
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    margin-left: 50px;
   }
 
   .img1 {
@@ -226,7 +222,11 @@ html {
   .card {
     margin: 0;
     margin-bottom: 20px;
-    justify-self: center;
+    justify-content: center;
+  }
+
+  .banner {
+    max-height: 250px;
   }
 
 }
